@@ -1,0 +1,4 @@
+https://github.com/EmptySpaceFSU/DWS1/tree/gh-pages
+
+http://emptyspacefsu.github.io/DWS1/equations.html
+http://emptyspacefsu.github.io/DWS1/element_definitions.html
