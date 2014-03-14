@@ -1,0 +1,25 @@
+/* CSS */
+
+    body{
+        background-color: #A65000;
+        color: #015965;
+    }
+    h1 {
+        background-color: #BF7530;
+        color: #ffffff;
+    }
+    h2 {
+        background: hsla(8, 75%, 20%, 0.50);
+        color: hsl(100,100%,100%);
+    }
+    ol {
+        border-style:solid;
+        border-color: RGBa(100,48,0,.8);
+        background-color: #FFB673;
+    }
+    #titledesc {
+        color: #eeeeee;
+    }
+    #footer {
+        color: white;
+    }
