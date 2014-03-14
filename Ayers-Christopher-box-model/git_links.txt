@@ -1,0 +1,4 @@
+https://github.com/EmptySpaceFSU/DWS1/tree/gh-pages/Ayers-Christopher-styling-text/
+
+http://emptyspacefsu.github.io/DWS1/Ayers-Christopher-styling-text/styling-text.html
+http://emptyspacefsu.github.io/DWS1/Ayers-Christopher-styling-text/css/styles.css
