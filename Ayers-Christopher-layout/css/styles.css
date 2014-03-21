@@ -1,0 +1,87 @@
+/* CSS
+    I got all of my colors from Color Scheme Designer.
+
+
+*/
+
+    body{
+        font-family: "Myriad Pro";
+        font-size: .874em;
+        background-color: #A65000;
+        color: #015965;
+    }
+    h1 {
+        text-shadow: 2px 2px #111111;
+        letter-spacing:-1px;
+        text-indent: 9px;
+        background-color: #BF7530;
+        color: #ffffff;
+        border: 1px solid grey;
+    }
+    h2 {
+        border: 1px solid darkgray;
+        text-transform: capitalize;
+        background: hsla(8, 75%, 20%, 0.50);
+        color: hsl(100,100%,100%);
+    }
+    em {
+        font-family: "Courier New";
+        font-style: oblique;
+        font-weight: 100;
+    }
+    ol {
+        list-style-type: upper-alpha;
+        line-height: 105%;
+        border-style:solid;
+        border-color: RGBa(100,48,0,.8);
+        background-color: #FFB673;
+        padding-bottom: 1%;
+    }
+    #titledesc {
+        color: #eeeeee;
+        width: 70%;
+        float: left;
+    }
+
+    #titlesidebar {
+        background-color: white;
+        text-align: center;
+        width: 25%;
+        margin-left: 2%;
+        padding: 1%;
+        float: right;
+    }
+    #footer {
+        width: 80%;
+        border: 1px solid grey;
+        padding-top: 25px;
+        margin-bottom: 10px;
+        font: italic small-caps 10pt/1 helvetica;
+        text-align: center;
+        color: white;
+    }
+    #goog {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        line-height: 100%;
+        color: white;
+        text-align: center;
+    }
+    .photo {
+        float: left;
+        padding-right: 3%;
+    }
+    a:link {
+        font-size: 25px;
+        color: darkblue;
+    }
+    a:visited {
+        color: purple;
+    }
+    a:hover {
+        color: white;
+    }
+    a:active {
+        color:white;
+        font-style: italic;
+    }
