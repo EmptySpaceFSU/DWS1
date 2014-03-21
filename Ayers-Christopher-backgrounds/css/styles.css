@@ -4,13 +4,16 @@
 
 */
 
-    body{
+    body {
 
         font-family: "Myriad Pro";
         font-size: .874em;
-        background-color: #A65000;
-        color: #015965;
+        background-repeat:repeat;
+        background-attachment: fixed;
+        /*background-color: #A65000;*/
+        /*color: #015965;*/
     }
+
     h1 {
         text-shadow: 2px 2px #111111;
         letter-spacing:-1px;
@@ -39,18 +42,31 @@
         padding-bottom: 1%;
     }
     #titledesc {
-        color: #eeeeee;
+        padding:1%;
+        color: #111111;
         width: 70%;
         float: left;
+        background-color: white;
+        border: 2px solid #555555;
+
     }
 
     #titlesidebar {
-        background-color: white;
+        background: rgb(160,216,239); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(160,216,239,1) 0%, rgba(221,241,249,1) 65%, rgba(254,255,255,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,216,239,1)), color-stop(65%,rgba(221,241,249,1)), color-stop(100%,rgba(254,255,255,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+
         text-align: center;
-        width: 25%;
-        margin-left: 2%;
+        width: 24%;
+        margin-left: 1%;
         padding: 1%;
         float: right;
+        border: 2px solid #555555;
     }
     #footer {
         width: 80%;
@@ -60,15 +76,20 @@
         font: italic small-caps 10pt/1 helvetica;
         text-align: center;
         color: white;
+        float: both;
     }
     #goog {
         font-family: 'Tangerine', serif;
         font-size: 48px;
         line-height: 100%;
-        color: white;
+        color: black;
         text-align: center;
     }
-
+    /* I can not seem to get this to show up here...
+    .snip {
+        background-image: image('images/icon.png');
+    }
+    */
     .photo {
         float: left;
         padding-right: 3%;
