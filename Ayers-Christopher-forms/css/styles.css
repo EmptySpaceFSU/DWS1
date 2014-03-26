@@ -1,0 +1,213 @@
+/* CSS
+
+*/
+
+
+    body {
+        background-image: url('../images/presence-ii.png');
+        font-family: "Myriad Pro";
+        font-size: .874em;
+        background-repeat:repeat;
+        background-attachment: fixed;
+        padding:0;
+        margin:0 auto 25px auto;
+
+
+    }
+
+    h1 {
+        text-shadow: 2px 2px #111111;
+        letter-spacing:-1px;
+        text-indent: 9px;
+        background-color: #BF7530;
+        color: #ffffff;
+        border: 1px solid grey;
+    }
+    h2 {
+        border: 1px solid darkgray;
+        text-transform: capitalize;
+        background: hsla(8, 75%, 20%, 0.50);
+        color: hsl(100,100%,100%);
+    }
+    em {
+        font-family: "Courier New";
+        font-style: oblique;
+        font-weight: 100;
+    }
+    ol {
+        list-style-type: upper-alpha;
+        line-height: 105%;
+        border-style:solid;
+        border-color: RGBa(100,48,0,.8);
+        background-color: #FFB673;
+        padding-bottom: 1%;
+    }
+    nav {
+        border: 1px solid darkgray;
+        background: hsla(8, 75%, 20%, 0.50);
+        color: hsl(100,100%,100%);
+    }
+    legend {
+        border:2px #FFB673 solid;
+        background-color:#FFB673;
+        border-radius:3px;
+    }
+
+    label {
+        margin-right:2px;
+    }
+    input {
+        margin-right:4px;
+    }
+    input:focus {
+        background-color:wheat;
+    }
+    form {
+        border:2px dashed darkred;
+        margin: 15px auto 5px auto;
+        font-size:.900em;
+        width:650px;
+        padding:2px;
+        text-align:left;
+    }
+    fieldset {
+        background-color: RGBa(20%,20%,20%,0.25);
+    }
+     label:hover {
+        background-color:lightblue;
+    }
+    input:hover {
+        background-color:lightblue;
+    }
+    #titledesc {
+        padding:1%;
+        color: #111111;
+        width: 70%;
+        float: left;
+        background-color: white;
+        border: 2px solid #555555;
+
+    }
+    .labl {
+        margin-right:5px;
+        text-align:right;
+        width:125px;
+        float:left;
+    }
+    #wrapper {
+        margin:auto;
+        width:90%;
+        padding:0 10px 0 10px;
+        background-color:white;
+        border: 2px solid black;
+        border-radius:5px;
+    }
+
+    #titlesidebar {
+        background: rgb(160,216,239); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(160,216,239,1) 0%, rgba(221,241,249,1) 65%, rgba(254,255,255,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,216,239,1)), color-stop(65%,rgba(221,241,249,1)), color-stop(100%,rgba(254,255,255,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(160,216,239,1) 0%,rgba(221,241,249,1) 65%,rgba(254,255,255,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+
+        text-align: center;
+        width: 23%;
+        margin:auto;
+        padding: 1%;
+        float: right;
+        border: 2px solid #555555;
+    }
+    #books {
+        width:100%;
+        margin:auto;
+    }
+    #contact {
+        width:100%;
+    }
+    #labels {
+        float: left;
+        background-color:lightsteelblue;
+        text-align:right;
+        width: 200px;
+        padding-right:5px;
+    }
+    #elements {
+        float: left;
+        background-color:lightsteelblue;
+        text-align: left;
+        width: 200px;
+        padding-left:5px;
+    }
+    #footer {
+        width: 100%;
+        border: 1px solid grey;
+        padding-top: 25px;
+        margin-bottom: 10px;
+        font: italic small-caps 10pt/1 helvetica;
+        text-align: center;
+        color: white;
+        background-color:darkgray;
+        align-content: center;
+        float: both;
+    }
+    #goog {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        line-height: 100%;
+        color: black;
+        text-align: center;
+    }
+
+    .snip {
+        background-image: image('../images/icon.png');
+    }
+    .photo {
+        float: left;
+        padding-right: 3%;
+    }
+
+/* Table stuff here. */
+    table {
+        width:600px;
+        margin:auto;
+        border-collapse:separate;
+        border:solid grey 2px;
+    }
+    table th {
+        border-bottom:solid black 2px;
+    }
+    table td:hover {
+        background-color:pink;
+    }
+    .money {
+        text-align: right;
+        letter-spacing: 5px;
+    }
+    .even {
+        background-color:lightgrey;
+    }
+
+/* Link stuff here */
+    a {
+        margin:auto 15px auto 15px;
+        text-decoration: none;
+        display:inline;
+    }
+    a:link {
+        font-size: 25px;
+        color: darkblue;
+    }
+    a:visited {
+        color: purple;
+    }
+    a:hover {
+        color: white;
+        background-color:lightpink;
+    }
+    a:active {
+        color:white;
+        font-style: italic;
+    }

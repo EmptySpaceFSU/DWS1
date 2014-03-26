@@ -1,4 +1,4 @@
-https://github.com/EmptySpaceFSU/DWS1/tree/gh-pages/Ayers-Christopher-layout/
+https://github.com/EmptySpaceFSU/DWS1/tree/gh-pages/Ayers-Christopher-backrounds/
 
-http://emptyspacefsu.github.io/DWS1/Ayers-Christopher-layout/layout.html
-http://emptyspacefsu.github.io/DWS1/Ayers-Christopher-layout/css/styles.css
+http://emptyspacefsu.github.io/DWS1/Ayers-Christopher-backgrounds/backgrounds.html
+http://emptyspacefsu.github.io/DWS1/Ayers-Christopher-backgrounds/css/styles.css

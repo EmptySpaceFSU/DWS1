@@ -1,17 +1,14 @@
 /* CSS
-    I got all of my colors from Color Scheme Designer.
-
 
 */
 
     body {
-
+        background-image: url('images/presence-ii.png');
         font-family: "Myriad Pro";
         font-size: .874em;
         background-repeat:repeat;
         background-attachment: fixed;
-        /*background-color: #A65000;*/
-        /*color: #015965;*/
+
     }
 
     h1 {
@@ -69,13 +66,15 @@
         border: 2px solid #555555;
     }
     #footer {
-        width: 80%;
+        width: 100%;
         border: 1px solid grey;
         padding-top: 25px;
         margin-bottom: 10px;
         font: italic small-caps 10pt/1 helvetica;
         text-align: center;
         color: white;
+        background-color:darkgray;
+        align-content: center;
         float: both;
     }
     #goog {
@@ -85,11 +84,10 @@
         color: black;
         text-align: center;
     }
-    /* I can not seem to get this to show up here...
+    /* I can not seem to get this to show up here...*/
     .snip {
         background-image: image('images/icon.png');
     }
-    */
     .photo {
         float: left;
         padding-right: 3%;
