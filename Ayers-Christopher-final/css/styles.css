@@ -151,6 +151,7 @@ footer header {
     float: left;
 }
 #footlinks {
+    background: #ffffff url('../images/natural-canvas-pale.jpg') fixed;
     width:25%;
     float: right;
     font-size:.7em;
